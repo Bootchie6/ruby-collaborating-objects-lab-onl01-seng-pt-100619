@@ -24,11 +24,11 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    song.find(name) ? self.find(name) : self.new(name)
+    self.find(name) ? self.find(name) : self.new(name)
   end
   
   def print_songs
-    song.each {|song| puts song.name}
+    self.each {|song| puts song.name}
   end
 end
 
