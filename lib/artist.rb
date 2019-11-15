@@ -19,7 +19,7 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    song.find(name)
+    song.find(name) ? self.
   end
   
   def print_songs
