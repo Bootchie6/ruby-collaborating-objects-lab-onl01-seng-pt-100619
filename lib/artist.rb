@@ -20,7 +20,7 @@ class Artist
   end
   
   def self.find(name)
-    self.all.find
+    self.all.find {|artist| artist.
   end
   
   def self.find_or_create_by_name(name)
