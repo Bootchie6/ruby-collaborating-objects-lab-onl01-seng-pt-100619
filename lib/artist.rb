@@ -23,7 +23,7 @@ class Artist
   end
   
   def print_songs
-    
+    song.each {
   end
 end
 
